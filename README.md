@@ -1,4 +1,4 @@
-Toy Server (Gulp)
+Toy Server (Gulp.js)
 ==========
 
 Basic server to play around with .html and css/scss (sass) files. All files under /public directory will be served with no need of extra configuration. All scripts under /scripts will be compiled into one single minified file under /scripts/min/all.min.js   So there is **no** need to add your scripts to index.html
@@ -15,4 +15,4 @@ When a html / js / scss file is changed the server will restart and will trigger
 `gulp`
 
 
-Next time you want to run this just run `gulp` on the root directory of the project.
+Next time you want to run the server just run `gulp` on the root directory of the project.
