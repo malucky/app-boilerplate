@@ -1,4 +1,4 @@
-toy-server
+Toy Server (Gulp)
 ==========
 
 Basic server to play around with .html and css/scss (sass) files. All files under /public directory will be served with no need of extra configuration. All scripts under /scripts will be compiled into one single minified file under /scripts/min/all.min.js   So there is **no** need to add your scripts to index.html
