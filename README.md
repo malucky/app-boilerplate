@@ -3,7 +3,7 @@ App Boilerplate (Gulp.js)
 
 Based off of [Toy Server](https://github.com/deini/toy-server)
 
-Basic web app boilerplate using sass, jade, browserify, and gulp. Includes modernizr by default.
+Basic web app boilerplate using node, express, sass, jade, browserify, and gulp. Includes modernizr by default.
 
 Read the details on [blog post](http://deini.im/gulp-js-first-impressions/) for more information regarding gulp!
 
