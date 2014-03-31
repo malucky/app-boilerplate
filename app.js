@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -20,6 +19,6 @@ app.use(express.methodOverride());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(app.router);
 
-http.createServer(app).listen(app.get('port'), function(){
+http.createServer(app).listen(app.get('port'), function () {
   console.log('Express server running on port ' + app.get('port'));
 });

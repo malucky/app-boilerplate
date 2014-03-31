@@ -1,11 +1,11 @@
-Toy Server (Gulp.js)
+App Boilerplate (Gulp.js)
 ==========
 
-Basic server to play around with .html and css/scss (sass) files. All files under /public directory will be served with no need of extra configuration. All scripts under /scripts will be compiled into one single minified file under /scripts/min/all.min.js   So there is **no** need to add your scripts to index.html
+Based off of [Toy Server](https://github.com/deini/toy-server)
 
-When a html / js / scss file is changed the server will restart and will trigger a live reload. This means that if you have software or this awesome [chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en) your chrome will refresh automatically. If you are using this extension make sure you activate it in your [http://localhost:3000](http://localhost:3000) the circle in the middle of the extension logo should have a black fill.
+Basic web app boilerplate using sass, jade, browserify, and gulp. Includes modernizr by default.
 
-Read the details on my [blog post](http://deini.im/gulp-js-first-impressions/)!
+Read the details on [blog post](http://deini.im/gulp-js-first-impressions/) for more information regarding gulp!
 
 ###How to run
 `npm install`
@@ -13,6 +13,8 @@ Read the details on my [blog post](http://deini.im/gulp-js-first-impressions/)!
 `npm install -g gulp`
 
 `gem install sass`
+
+'bower install'
 
 `gulp`
 

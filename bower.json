@@ -1,0 +1,17 @@
+{
+  "name": "TODO",
+  "version": "0.0.0",
+  "homepage": "TODO",
+  "authors": [],
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "modernizr": "~2.7.2"
+  }
+}
